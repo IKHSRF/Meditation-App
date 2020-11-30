@@ -25,7 +25,7 @@ class ContinueWithFacebook extends StatelessWidget {
         ),
         child: Row(
           children: [
-            SvgPicture.asset('assets/images/facebook logo.svg'),
+            SvgPicture.asset('assets/icons/facebook logo.svg'),
             Spacer(),
             Text(
               'CONTINUE WITH FACEBOOK',

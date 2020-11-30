@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:meditation/pages/authentication/signin_page.dart';
 import 'package:meditation/pages/authentication/signup_page.dart';
+import 'package:meditation/pages/course/course_detail.dart';
 import 'package:meditation/pages/home/home.dart';
 import 'pages/getstarted/get_started.dart';
 
@@ -32,6 +33,10 @@ class MyApp extends StatelessWidget {
         GetPage(
           name: '/home',
           page: () => Home(),
+        ),
+        GetPage(
+          name: '/courseDetail',
+          page: () => CourseDetail(),
         ),
       ],
     );

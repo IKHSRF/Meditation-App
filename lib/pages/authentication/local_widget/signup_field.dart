@@ -10,6 +10,7 @@ class SignUpField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Wrap(
+      runSpacing: 20.0,
       children: [
         AuthField(hintText: 'Username', onChanged: (value) {}),
         AuthField(hintText: 'Email Address', onChanged: (value) {}),

@@ -26,7 +26,7 @@ class ContinueWithGoogle extends StatelessWidget {
         ),
         child: Row(
           children: [
-            SvgPicture.asset('assets/images/google logo.svg'),
+            SvgPicture.asset('assets/icons/google logo.svg'),
             Spacer(),
             Text(
               'CONTINUE WITH GOOGLE',

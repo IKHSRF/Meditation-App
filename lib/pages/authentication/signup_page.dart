@@ -48,7 +48,9 @@ class _SignUpState extends State<SignUp> {
               ),
               PurpleButton(
                 text: 'GET STARTED',
-                buttonTap: () {},
+                buttonTap: () {
+                  Get.toNamed('/home');
+                },
               ),
             ],
           ),
